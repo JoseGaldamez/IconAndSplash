@@ -1,0 +1,42 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="1024dp"
+            android:height="1024dp"
+            android:viewportWidth="1024"
+            android:viewportHeight="1024">
+            <group android:name="sol">
+                <path
+                    android:name="path_2"
+                    android:pathData="M 601.9 322.4 C 592.25 322.4 582.985 326.238 576.161 333.061 C 569.338 339.885 565.5 349.15 565.5 358.8 C 565.5 368.45 569.338 377.715 576.161 384.539 C 582.985 391.362 592.25 395.2 601.9 395.2 C 611.55 395.2 620.815 391.362 627.639 384.539 C 634.462 377.715 638.3 368.45 638.3 358.8 C 638.3 349.15 634.462 339.885 627.639 333.061 C 620.815 326.238 611.55 322.4 601.9 322.4 Z"
+                    android:fillColor="#ffe108"
+                    android:strokeWidth="1"/>
+            </group>
+            <path
+                android:name="path"
+                android:pathData="M 495.7 347.2 L 698.4 605.6 L 338.3 608.2 Z"
+                android:fillColor="#c44400"
+                android:strokeWidth="1"/>
+            <path
+                android:name="path_1"
+                android:pathData="M 437.1 395.2 L 638.3 621.4 L 307.8 621.4 Z"
+                android:fillColor="#c46600"
+                android:strokeWidth="1"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="sol">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="translateY"
+                android:startOffset="207"
+                android:duration="706"
+                android:valueFrom="200"
+                android:valueTo="0"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

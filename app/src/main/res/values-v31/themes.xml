@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.IconAndSplash" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@color/myBlue</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/animated_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.IconAndSplash</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>
